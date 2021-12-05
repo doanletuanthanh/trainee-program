@@ -1,10 +1,21 @@
 :root {
-    --main-bg-color: pink;
+  --main-bg-color: pink;
 }
 
 ul li {
-    -webkit-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-    box-sizing: border-box;
+  -webkit-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: inherit;
+}
+
+html {
+  /* Hack */
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
